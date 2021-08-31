@@ -32,9 +32,9 @@ function hey() {
 
 function salam(data1) {
     imageindex.forEach((i) => {
-        const div=document.createElement('div')
+        let div=document.createElement('div')
         div.classList.add('divs')
-        const image = document.createElement('img')     
+        let image = document.createElement('img')     
         image.src = `${data1[i].Poster}`
         div.classList.add('div')
         image.classList.add('sekil')
