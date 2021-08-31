@@ -9,12 +9,14 @@ const bodytext=document.getElementById('bodytext')
 const bodytex2=document.getElementById('bodytext2')
 const bodytex3=document.getElementById('bodytext3')
 const bodyt5=document.querySelector('#body5')
+hey()
 function popup(){
     pop.classList.remove('close')
     bodyt5.classList.remove('key')
   
     
 }
+
 
 function hey() {
     fetch('https://www.omdbapi.com/?apikey=5a06b1e0&s=avenger')
@@ -93,5 +95,5 @@ function salam(data1) {
 
 }
 
-hey()
+
 ///6e8a27a700c6e43c9a97709a6b09688d
